@@ -12,8 +12,6 @@ train.py (Code for training. Must specify keywords in the model variable)
 trainc.py (Continue train, must specify the weights file that needs to be continued)
 AUG  [Folder] (Contains files to generate static augmentations using MATLAB)
 ADI  [Folder] (Modified code for ADI) [Current, I'm asking for permission to share the modified code]
-
-
 ```
 #### Samples results on the KITTI Road Benchmark dataset     
 
