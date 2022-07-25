@@ -20,14 +20,14 @@ For Backbones
 For Augmentation  
   ``` Install Albumentations using details from https://github.com/albumentations-team/albumentations or https://albumentations.ai/```  
 
-##### How to download dataset(s)?  
+##### How to download dataset(s)? 
 Please refer to data provider websites  
 [KITTI Road Benchmark]( http://www.cvlibs.net/)  
 [City Scapes]( https://www.cityscapes-dataset.com/)  
 [R2D]( https://sites.google.com/view/sne-roadseg/dataset)  
 ```Place the dataset into data>testing and data>training  ```  
 ![Sample results](https://github.com/abdkhanstd/LRDNet/raw/main/images/folder.png)  
-``` For Augmentation data, place the data in data_road_aug>train data_road_aug>val```  
+``` For Augmentation data, place the data in data_road_aug>train and data_road_aug>val```  
 
 
 
