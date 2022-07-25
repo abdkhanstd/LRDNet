@@ -25,7 +25,7 @@ Please refer to data provider websites
 [City Scapes]( https://www.cityscapes-dataset.com/)  
 [R2D]( https://sites.google.com/view/sne-roadseg/dataset)  
 ```Place the dataset into data>testing and data>training  ```  
-![Sample results](https://github.com/abdkhanstd/LRDNet/blob/master/images/folder.png)
+![Sample results](https://github.com/abdkhanstd/LRDNet/blob/master/images/folder.png)  
 ``` For Augmentation data, place the data in data_road_aug>train data_road_aug>val```  
 
 
@@ -36,3 +36,6 @@ Please refer to data provider websites
 We provide many pretrained weight files. The models that were used to evaluate on KITTI evaluation server are represented by their names i.e., LRDNet+, LRDNet(s), and LRDNet(L).
 
 ##### Please cite As:
+
+
+
