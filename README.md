@@ -50,7 +50,7 @@ Create an account with your official email and follow the guideline provided by 
 #### Download pre-trained weights for testing 
 We provide many pretrained weight files. The models that were used to evaluate on the KITTI evaluation server are represented by their names i.e., LRDNet+, LRDNet(s), and LRDNet(L).
 
-The weight files (HDF5 with learning gradients and abstraction layers preserved, so don’t panic from large file size), the submitted BEV, our modified ADI, and HTML evidence of KITTI submissions can be downloaded from [here (Uploading please wait)]( http://www.cvlibs.net/).  
+The weight files (HDF5 with learning gradients and abstraction layers preserved, so don’t panic from large file size), the submitted BEV, our modified ADI, and HTML evidence of KITTI submissions can be downloaded from [here](https://stduestceducn-my.sharepoint.com/:f:/g/personal/201714060114_std_uestc_edu_cn/EhqB09h_M_hKistKRBZd-VwB1J3mDkXTy-TwoML1ZR8_tA?e=WGX03e).  
 
 
 ##### Please cite As:
