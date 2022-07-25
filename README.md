@@ -16,7 +16,8 @@ ADI  [Folder] (Modified code for ADI) [Current, I'm asking for permission to sha
 #### Samples results on the KITTI Road Benchmark dataset     
 
 ![Sample results]( https://github.com/abdkhanstd/LRDNet/raw/main/images/qres.jpg)
-#### FPS and parameter info     
+#### FPS and parameter info   
+Please note that Keras is much much slower than PyTorch. However, as mentioned earlier, we still stick to Keras as we need to port it to embedded devices for future work. The results are presented in the following Table.
 
 ![Table performance]( https://github.com/abdkhanstd/LRDNet/raw/main/images/table.png)
 
