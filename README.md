@@ -11,7 +11,7 @@ test.py (Test a trained model. The model names need to be specified in test.py i
 train.py (Code for training. Must specify keywords in the model variable)
 trainc.py (Continue train, must specify the weights file that needs to be continued)
 AUG  [Folder] (Contains files to generate static augmentations using MATLAB)
-ADI  [Folder] (Modified code for ADI, [Current im asking for permission to share the modified code, so please wait])
+ADI  [Folder] (Modified code for ADI) [Current, I'm asking for permission to share the modified code]
 
 
 ```
@@ -38,7 +38,7 @@ Please refer to data provider websites
 [R2D]( https://sites.google.com/view/sne-roadseg/dataset)  
 ```Place the dataset into data>testing and data>training  ```  
 ![Sample results](https://github.com/abdkhanstd/LRDNet/raw/main/images/folder.png)  
-``` For Augmentation data, place the data in data_road_aug>train and data_road_aug>val```  
+``` For Augmentation data, place the data in data>data_road_aug>train and data>data_road_aug>val```  
 
 
 ##### How to covert to BEV (Birds Eye View)? 
