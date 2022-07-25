@@ -1,14 +1,15 @@
 # LRDNet
 Please note that at this time (due to a busy schedule and some other reasons), only a brief description is provided. However, one can still access the details and re-generate the results.
-This repository contains the official implementation of LRDNet. LRDNet is a lightweight and new method that efficiently detects free road space. The proposed network is lightweight having only 19.5 M parameters (approximately). To date, the LRDNet has the least parameters and the lowest processing time.
-#### Please refer to the code, the code is self-descriptive. However, here is an overall description of the files:
+This repository contains the official implementation of LRDNet. LRDNet is a lightweight and new method that efficiently detects free road space. The proposed network is lightweight having only 19.5 M parameters (approximately). To date, the LRDNet has the least parameters and the lowest processing time.  
+Please refer to the code, the code is self-descriptive. However, here is an overall description of the files:
 ```
 test.py (Test a trained model. The model names need to be specified in test.py i.e., model_path)
 train.py (Code for training. Must specify keywords in the model variable)
 trainc.py (Continue train, must specify the weights file that needs to be continued)
 ```
+#### Samples results on the KITTI Road Benchmark dataset     
 
-![Sample results](https://github.com/abdkhanstd/LRDNet/blob/master/images/qres.jpg)
+![Sample results]( https://github.com/abdkhanstd/LRDNet/raw/main/images/qres.jpg)
 
 #### Dependencies  
   ```Requirements: Tensorflow-gpu==1.14.0, Keras==2.2.4, tqdm, pillow, numpy Simply run each code.```  
@@ -25,7 +26,7 @@ Please refer to data provider websites
 [City Scapes]( https://www.cityscapes-dataset.com/)  
 [R2D]( https://sites.google.com/view/sne-roadseg/dataset)  
 ```Place the dataset into data>testing and data>training  ```  
-![Sample results](https://github.com/abdkhanstd/LRDNet/blob/master/images/folder.png)  
+![Sample results](https://github.com/abdkhanstd/LRDNet/raw/main/images/folder.png)  
 ``` For Augmentation data, place the data in data_road_aug>train data_road_aug>val```  
 
 
