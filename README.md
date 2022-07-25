@@ -10,6 +10,9 @@ trainc.py (Continue train, must specify the weights file that needs to be contin
 #### Samples results on the KITTI Road Benchmark dataset     
 
 ![Sample results]( https://github.com/abdkhanstd/LRDNet/raw/main/images/qres.jpg)
+#### FPS and parameter info     
+
+![Table performance]( https://github.com/abdkhanstd/LRDNet/raw/main/images/table.png)
 
 #### Dependencies  
   ```Requirements: Tensorflow-gpu==1.14.0, Keras==2.2.4, tqdm, pillow, numpy Simply run each code.```  
