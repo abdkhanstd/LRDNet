@@ -1,6 +1,10 @@
 # LRDNet
-Please note that at this time (due to a busy schedule and some other reasons), only a brief description is provided. However, one can still access the details and re-generate the results.
+Please note that at this time (due to a busy schedule and some other reasons), only a brief description is provided. However, one can still access the details and re-generate the results.  
 This repository contains the official implementation of LRDNet. LRDNet is a lightweight and new method that efficiently detects free road space. The proposed network is lightweight having only 19.5 M parameters (approximately). To date, the LRDNet has the least parameters and the lowest processing time.  
+
+Please note that I have cleaned the code, but haven't tested the cleaned code. If there's any problem, please let me know. Moreover, the code is implemented in Keras as we further want it to work on embedded devices. Pytorch despite being faster than Keras on CPU and GPU environments,  it seems that Pytorch isn't supported on embedded devices that can achieve up to 300 FPS.  
+
+
 Please refer to the code, the code is self-descriptive. However, here is an overall description of the files:
 ```
 test.py (Test a trained model. The model names need to be specified in test.py i.e., model_path)
@@ -43,6 +47,7 @@ The weight files (HDF5 with learning gradients and abstraction layers preserved)
 
 
 ##### Please cite As:
+Currently, the paper is submitted. Further details will be added soon after the response from the journal. No prepreint uploaded yet
 
 
 
