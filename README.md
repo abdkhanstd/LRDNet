@@ -41,7 +41,11 @@ Please refer to data provider websites
 ``` For Augmentation data, place the data in data_road_aug>train and data_road_aug>val```  
 
 
+##### How to covert to BEV (Birds Eye View)? 
+The resultant results and masks will be stored in ```seg_results_images``` folder. As KITTI evaluates the masks in BEV, follow the guideline provided by [KITTI road kit]( http://www.cvlibs.net/).
 
+##### How to evaluate BEV? 
+Create an account with your official email and follow the guideline provided by [KITTI road kit]( http://www.cvlibs.net/) .
 
 
 #### Download pre-trained weights for testing 
