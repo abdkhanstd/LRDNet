@@ -10,6 +10,10 @@ Please refer to the code, the code is self-descriptive. However, here is an over
 test.py (Test a trained model. The model names need to be specified in test.py i.e., model_path)
 train.py (Code for training. Must specify keywords in the model variable)
 trainc.py (Continue train, must specify the weights file that needs to be continued)
+AUG  [Folder] (Contains files to generate static augmentations using MATLAB)
+ADI  [Folder] (Modified code for ADI, [Current im asking for permission to share the modified code, so please wait])
+
+
 ```
 #### Samples results on the KITTI Road Benchmark dataset     
 
@@ -41,13 +45,13 @@ Please refer to data provider websites
 
 
 #### Download pre-trained weights for testing 
-We provide many pretrained weight files. The models that were used to evaluate on KITTI evaluation server are represented by their names i.e., LRDNet+, LRDNet(s), and LRDNet(L).
+We provide many pretrained weight files. The models that were used to evaluate on the KITTI evaluation server are represented by their names i.e., LRDNet+, LRDNet(s), and LRDNet(L).
 
-The weight files (HDF5 with learning gradients and abstraction layers preserved), the submitted BEV, and HTML evidence of KITTI submissions can be downloaded from [here (Uploading please wait]( http://www.cvlibs.net/)  
+The weight files (HDF5 with learning gradients and abstraction layers preserved), the submitted BEV, our modified ADI, and HTML evidence of KITTI submissions can be downloaded from [here (Uploading please wait]( http://www.cvlibs.net/)  
 
 
 ##### Please cite As:
-Currently, the paper is submitted. Further details will be added soon after the response from the journal. No prepreint uploaded yet
+Currently, the paper is submitted. Further details will be added soon after the response from the journal. No preprint uploaded yet
 
 
 
