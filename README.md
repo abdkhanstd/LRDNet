@@ -17,12 +17,12 @@ ADI  [Folder] (Modified code for ADI) [Current, I'm asking for permission to sha
 
 ![Sample results]( https://github.com/abdkhanstd/LRDNet/raw/main/images/qres.jpg)
 #### FPS and parameter info   
-Please note that Keras is much much slower than PyTorch. However, as mentioned earlier, we still stick to Keras as we need to port it to embedded devices for future work. The results are presented in the following Table.
+Please note that Keras is much much slower than PyTorch. However, as mentioned earlier, we still stick to Keras as we need to port it to embedded devices for future work. The results are presented in the following Table. These results were tested using 2080Ti GPU with 188 GB ram on a 48-core Xeon processor.
 
 ![Table performance]( https://github.com/abdkhanstd/LRDNet/raw/main/images/table.png)
 
 #### Dependencies  
-  ```Requirements: Tensorflow-gpu==1.14.0, Keras==2.2.4, tqdm, pillow, numpy Simply run each code.```  
+  ```Requirements: Tensorflow-gpu==1.14.0, Keras==2.2.4, Tqdm, pillow, NumPy Simply run each code.```  
 For FLOPS:  
   ``` Download net_flops.py from  https://github.com/ckyrkou/Keras  and keep it on the root folder (if FLOPS calculation is required```  
 For Backbones  
