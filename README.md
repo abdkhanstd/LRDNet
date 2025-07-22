@@ -54,7 +54,18 @@ The weight files (HDF5 with learning gradients and abstraction layers preserved,
 
 
 ##### Please cite As:
-Currently, the paper is submitted. Further details will be added soon after the response from the journal. No preprint uploaded yet.
-
+@article{DBLP:journals/tmm/KhanSRSS25,
+  author       = {Abdullah Aman Khan and
+                  Jie Shao and
+                  Yunbo Rao and
+                  Lei She and
+                  Heng Tao Shen},
+  title        = {LRDNet: Lightweight LiDAR Aided Cascaded Feature Pools for Free Road
+                  Space Detection},
+  journal      = {{IEEE} Trans. Multim.},
+  volume       = {27},
+  pages        = {652--664},
+  year         = {2025},
+}
 
 
